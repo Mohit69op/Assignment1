@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<h1 align="center">TIME TABLE</h1>
+	<table border="2" cellspacing="0" align="center">
+		<!--<caption>Timetable</caption>-->
+		<tr>
+			<td align="center" height="50"
+				width="100"><br>
+				<b>Day/Period</b></br>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>I<br>9:30-10:20</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>II<br>10:20-11:10</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>III<br>11:10-12:00</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>12:00-12:40</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>IV<br>12:40-1:30</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>V<br>1:30-2:20</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>VI<br>2:20-3:10</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>VII<br>3:10-4:00</b>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" height="50">
+				<b>Monday</b></td>
+			<td align="center" height="50">English</td>
+			<td align="center" height="50">Maths</td>
+			<td align="center" height="50">Chemistry</td>
+			<td rowspan="6" align="center" height="50">
+				<h2>B<br>R<br>E<br>A<br>K</h2>
+			</td>
+			<td colspan="3" align="center"
+				height="50">Games</td>
+			<td align="center" height="50">Physics</td>
+		</tr>
+		<tr>
+			<td align="center" height="50">
+				<b>Tuesday</b>
+			</td>
+			<td colspan="3" align="center"
+				height="50">Games
+			</td>
+			<td align="center" height="50">English</td>
+			<td align="center" height="50">Chemisrty</td>
+			<td align="center" height="50">Maths</td>
+			<td align="center" height="50">chemistry</td>
+		</tr>
+		<tr>
+			<td align="center" height="50">
+				<b>Wednesday</b>
+			</td>
+			<td align="center" height="50">Mats</td>
+			<td align="center" height="50">physics</td>
+			<td align="center" height="50">English</td>
+			<td align="center" height="50">Chemistry</td>
+			<td colspan="3" align="center"
+				height="50">LIBRARY
+			</td>
+		</tr>
+		<tr>
+			<td align="center" height="50">
+				<b>Thursday</b>
+			</td>
+			<td align="center" height="50">Physics</td>
+			<td align="center" height="50">English</td>
+			<td align="center" height="50">Chemistry</td>
+			<td colspan="3" align="center"
+				height="50">LAB
+			</td>
+			<td align="center" height="50">Maths</td>
+		</tr>
+		<tr>
+			<td align="center" height="50">
+				<b>Friday</b>
+			</td>
+			<td colspan="3" align="center"
+				height="50">Games
+			</td>
+			<td align="center" height="50">Maths</td>
+			<td align="center" height="50">Chemistry</td>
+			<td align="center" height="50">English</td>
+			<td align="center" height="50">Physics</td>
+		</tr>
+		<tr>
+			<td align="center" height="50">
+				<b>Saturday</b>
+			</td>
+			<td align="center" height="50">English</td>
+			<td align="center" height="50">Chemistry</td>
+			<td align="center" height="50">Maths</td>
+			<td colspan="3" align="center"
+				height="50">Games
+			</td>
+			<td align="center" height="50">Maths</td>
+		</tr>
+        <tr>
+<td colspan="9" align="center"
+				 height="50"><strong>This is for class XII-A3</strong></td>
+                </tr>
+	</table>
+
+<form action="/action_page.php" >
+ <fieldset>
+    <legend>Bio Data</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Male </label>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Female</label>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">others</label><br><br>
+  <label for="birthday">DOB</label>
+  <input type="date" id="DOB" name="DOB"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+   <label for="phone">Phone:</label>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+  <label for="Branch">Branch</label>
+  <input list="branch">
+  <datalist id="branch">
+    <option value="CSE">
+    <option value="ECE">
+    <option value="HM">
+    <option value="ARC">
+    <option value="OT">
+    </datalist><br><br>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">Transport</label>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2">Hostel</label><br><br>
+  <label>Marksheet:</label><br><br>
+  <label for="myfile">Class 10th</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+   <label for="myfile">Class 12th</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <label for="Address">Address:</label><br>
+  <textarea name="message" rows="4" cols="50">
+type your address
+</textarea><br><br>
+  <input type="submit" value="Submit">
+   <input type="reset">
+  </fieldset>
+</form>
+</body>
+
+</html>
+
